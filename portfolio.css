@@ -1,0 +1,183 @@
+@media ( min-width:1024px) {
+    body{
+        background-color: rgba(4, 34, 58, 0.507);
+        margin: 0%;
+        font-size: x-large;
+        font-family:'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+header{
+    font-weight:bolder;
+    position: sticky;
+    top:-200px;
+}
+.box{
+    margin-left: 30%;
+}
+nav a{
+    white-space: nowrap;
+}
+.style{
+    margin: 5%;
+    font-size: 18px;
+    text-align: center;
+}
+.container{
+    background-color: rgb(42, 50, 61);
+    color: beige ;
+    text-align: center;
+    padding:25px;
+    width:auto;
+    height: fit-content;
+}
+a, button,a:visited {
+    border: 2px solid rgba(143, 67, 67, 0.664);
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(5, 34, 53);
+    padding: 5px 15px;
+    margin: 15px;
+    white-space: nowrap;
+    border-radius: 12px;
+    background-color: rgb(161, 164, 165);
+}
+a:hover,button:hover{
+    box-shadow: 3px 3px 3px 3px rgb(206, 187, 223);
+}
+#left{
+    float: left;
+    image-resolution:inherit;
+    width: 350px;
+    height: 300px;
+    margin: 3%;
+    border: 10px solid rgb(35, 83, 83);
+    border-radius: 50%;
+}
+.p{
+    background-color: rgba(35, 47, 58, 0.507);
+    border-radius: 10px;
+    margin: 2%;
+    padding: 10px;
+    justify-content:center ;
+}
+.main{
+    width: 1050px;
+    transform: translate(10%,0%);
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    margin: 5% 3%;
+}
+div{
+    background-color: rgba(178, 186, 194, 0.507);
+    margin: 4%;
+    margin-left: 6%;
+    border-radius:15px;
+}
+#skills div{
+    overflow: hidden;
+    background-color: rgba(35, 47, 58, 0.507);
+    border-radius: 10px;
+    margin: 2%;
+    padding: 5%;
+    justify-content:center ;
+}
+
+#skills p{
+    float: left;
+    margin: 3%;
+    padding: 1%;
+}
+input{
+    height: 35px;
+}
+#skills img{
+    display: block;
+}
+}
+
+
+
+
+@media ( max-width:1023px) {
+    body{
+        background-color: rgba(4, 34, 58, 0.507);
+        margin: 0%;
+        font-size: x-large;
+    }
+header{
+    font-weight:bolder;
+    position: sticky;
+    top:-200px;
+}
+.box{
+    margin-left: 10%;
+}
+nav a{
+    white-space: nowrap;
+}
+.style{
+    margin: 5%;
+    font-size: 18px;
+    text-align: center;
+}
+.container{
+    background-color: rgb(42, 50, 61);
+    color: beige ;
+    text-align: center;
+    padding:25px;
+    width:100vw;
+    position: sticky;
+}
+a,button,a:visited{
+    border: 2px solid  rgba(143, 67, 67, 0.664);
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(5, 34, 53);
+    padding: 5px 15px;
+    margin: 5px;
+    border-radius: 12px;
+    background-color: rgb(161, 164, 165);
+}
+a:hover,button:hover{
+    box-shadow: 3px 3px 3px 3px rgb(206, 187, 223);
+}
+img{
+    border: 10px solid rgba(35, 47, 58, 0.507);
+    border-radius: 2%;
+    width: 300px;
+}
+.p{
+    background-color: rgba(35, 47, 58, 0.507);
+    border-radius: 10px;
+    margin: 2%;
+    padding: 10px;
+    justify-content: center;
+}
+.main{
+    transform: translate(10%,0%);
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    margin: 4% -4%;
+}
+ div{ 
+    background-color: rgba(178, 186, 194, 0.507);
+    margin: 4%;
+    border-radius:15px;
+} 
+#skills div{
+    overflow: hidden;
+    background-color: rgba(35, 47, 58, 0.507);
+    border-radius: 10px;
+    margin: 2%;
+    padding: 4%;
+    justify-content:center ;
+}
+#skills p{
+    float: left;
+    margin: 2%;
+}
+#skills img{
+    display: block;
+}
+}
