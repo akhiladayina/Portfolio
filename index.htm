@@ -164,7 +164,20 @@
                 <button type="submit">Send Message</button>
             </form>       
         </p>
-    </section>
+    </section><script>
+        document.addEventListener('contextmenu', event => event.preventDefault());
+         function onFormSubmit(e) {
+
+        var response = e.namedValues;
+        var firstName = response["First Name"][0];
+        var lastName = response["Last Name"][0];
+        var email = response["Email"][0];
+        var message = response["Message"][0]; // Compose email body
+        var emailBody = "You have a new message from your website form:\n\n" + "First Name: " + firstName + "\n" + "Last Name: " + lastName + "\n" + "Email: " + email + "\n" +
+        "Message: " + message + "\n\n" + "Submitted on: " + new Date().toLocaleString(); // Send email to owner
+        MailApp.sendEmail("akhiladayina20.01@gmail.com", "New Website Contact", emailBody);
+    </script>
 <!--     <script src="portfolio.js"></script> -->
+    
 </body>
 </html>
