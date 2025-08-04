@@ -152,39 +152,7 @@
                 <img src="https://img.icons8.com/?size=64&id=4Z2nCrz5iPY2&format=png" alt="GitHub profile"></a>
             <a href="https://www.codechef.com/users/akhiladayina" target = "_blank" >
                 <img src="https://img.icons8.com/?size=50&id=vAtJFm3hwtQw&format=png" alt="Codechef Profile"></a>
-            <form action="" method="post" class="p" id="suggestions">
-                <p><label for="fname">First Name:</label>
-                <input type="text" name="users" id="fname" placeholder="FirstName" required></p>
-                <p><label for="lname">Last Name:</label>
-                <input type="text" name="users" id="lname" placeholder="Last Name" required></p>
-                <p><label for="email">Gmail:</label>
-                <input type="email" id="email" placeholder="Enter Gmail" required></p>
-                <p><label for="msg">Message:</label>
-                <textarea name="Message" id="msg" rows="3" cols="30" placeholder="Enter Message" required ></textarea></p>
-                <button type="submit" onclick="onFormSubmit(e)" >Send Message</button>
-            </form>       
         </p>
-    </section><script>
-        if (name && email && message) {
-        alert(`Thank you, Your message has been sent.`);
-        this.reset();
-    } else {
-        alert('Please fill in all fields.');
-    }
-        document.addEventListener('contextmenu', event => event.preventDefault());
-       function onFormSubmit(e) {
-
-        var response = e.namedValues;
-        var firstName = response["First Name"][0];
-        var lastName = response["Last Name"][0];
-        var email = response["Email"][0];
-        var message = response["Message"][0]; // Compose email body
-        var emailBody = "You have a new message from your website form:\n\n" + "First Name: " + firstName + "\n" + "Last Name: " + lastName + "\n" + "Email: " + email + "\n" +
-        "Message: " + message + "\n\n" + "Submitted on: " + new Date().toLocaleString(); // Send email to owner
-        MailApp.sendEmail("akhiladayina20.01@gmail.com", "New Website Contact", emailBody);
-       }
-    </script>
-<!--     <script src="portfolio.js"></script> -->
-    
+    </section>    
 </body>
 </html>
